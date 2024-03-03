@@ -5,6 +5,9 @@ FROM docker.io/python:3.9.2
 # Install packages that are required. 
 RUN pip install Django==4.2.9 
 
+#   Install psutil 
+RUN pip install psutil
+
 # Copy the Python code into the container
 COPY mysite /mysite
 
