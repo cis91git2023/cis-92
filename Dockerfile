@@ -16,7 +16,13 @@ ENV PORT=8000
 
 ENV STUDENT_NAME="Anthony Frey"
 
-ENV SITE_NAME="www.mysite.com" 
+ENV SITE_NAME="www.mysite.com"
+
+ENV SECRET_KEY="0kkrblt7%e()fxkz1udp1iv(g_-p*=-#4wg#5i1f8q#%8e)7mr"
+
+ENV DEBUG=1
+
+ENV DATA_DIR=/data
 
 
 # Set the working directory 
