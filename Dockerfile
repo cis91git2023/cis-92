@@ -12,7 +12,12 @@ RUN pip install psutil
 COPY mysite /mysite
 
 # Set environment variables 
-ENV PORT=8000 
+ENV PORT=8000
+
+ENV STUDENT_NAME="Anthony Frey"
+
+ENV SITE_NAME="www.mysite.com" 
+
 
 # Set the working directory 
 WORKDIR /mysite 
