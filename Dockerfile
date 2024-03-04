@@ -24,6 +24,9 @@ ENV DEBUG=1
 
 ENV DATA_DIR=/data
 
+# Create the data directory
+RUN mkdir -p $DATA_DIR 
+
 
 # Set the working directory 
 WORKDIR /mysite 
