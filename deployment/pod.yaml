@@ -19,3 +19,8 @@ spec:
         cpu: 250m 
         memory: 512Mi
         ephemeral-storage: 10Mi
+    env:
+    - name: STUDENT_NAME
+      value: "Your Name Here "
+    - name: SITE_NAME
+      value: "*"
