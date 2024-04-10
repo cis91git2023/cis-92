@@ -5,6 +5,10 @@ metadata:
   labels:
     function: app
 spec:
+  volumes:
+  - name: db
+    persistentVolumeClaim:
+        claimName: mysite-data
   containers:
   - name: django
     image: ghcr.io/cis91git2023/cis-92:Milestone-6.1
@@ -25,3 +29,6 @@ spec:
         name: mysite-config
     - secretRef:
         name: mysite-secrets
+    volumeMounts:
+    - name: db
+      mountPath: /data
