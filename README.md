@@ -9,6 +9,3 @@ write mod from hpl gcp cloudshell test
 write mod from desktop container test
 
 create container package 2/29/24 V5 [15:12:10]
-
-created "Reveiw" page in drive
-
