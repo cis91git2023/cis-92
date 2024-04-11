@@ -2,6 +2,8 @@
 
 This is my project.
 
+ENV_VARS :
+
 | Name |  Default |  Description
 | --- | --- | --- |
 | Port | 8000 | Port used by django |
@@ -12,15 +14,18 @@ This is my project.
 |SECRET_KEY | Top Secret | Classified
 
 
-2)  how to deploy your application on a Kubernetes cluster.:
+2)  Step by step instructions for how to deploy your application on a Kubernetes cluster.           
+Step 1)
 
         $ kubectl apply -f deployment/
         
-3)  Step by step instructions for how to delete your application.:
+3)  Step by step instructions for how to delete this application.   
+    Step 1)
 
         $   kubectl delete -f deployment/
     Removes all resources
  
+
     This repository has the starter code for CIS-92.     
            
 
