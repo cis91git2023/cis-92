@@ -15,15 +15,22 @@ ENV_VARS :
 
 
 Step by step instructions for how to deploy your application on a Kubernetes cluster.           
-Step 1)
+Step 1)        Apply full deployment:
 
         kubectl apply -f deployment/
 
-
-Step 2)        Initialize the database and create superuser:
+Step 2)        Get a shell inside the devcontainer:
 
         kubectl exec --stdin --tty pod/mysite-pod -- /bin/bash
+
+Step 3)        Initialize the database:
+
+        python manage.py migrate
         
+Step 4)        Create Supeuser:
+
+        python manage.py createsuperuser
+
 Step by step instructions for how to delete this application.   
     Step 1)
 
