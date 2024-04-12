@@ -39,5 +39,6 @@ Step by step instructions for how to delete this application.
 Removes all resources
 
 This repository has the starter code for CIS-92.
+
 By Anthony L Frey
 
