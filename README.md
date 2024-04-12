@@ -14,12 +14,17 @@ ENV_VARS :
 |SECRET_KEY | Top Secret | Classified
 
 
-2)  Step by step instructions for how to deploy your application on a Kubernetes cluster.           
+Step by step instructions for how to deploy your application on a Kubernetes cluster.           
 Step 1)
 
         kubectl apply -f deployment/
+
+
+Step 2)        Initialize the database and create superuser:
+
+        kubectl exec --stdin --tty pod/mysite-pod -- /bin/bash
         
-3)  Step by step instructions for how to delete this application.   
+Step by step instructions for how to delete this application.   
     Step 1)
 
         kubectl delete -f deployment/
