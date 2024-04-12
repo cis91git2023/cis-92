@@ -17,12 +17,12 @@ ENV_VARS :
 2)  Step by step instructions for how to deploy your application on a Kubernetes cluster.           
 Step 1)
 
-        $ kubectl apply -f deployment/
+        kubectl apply -f deployment/
         
 3)  Step by step instructions for how to delete this application.   
     Step 1)
 
-        $   kubectl delete -f deployment/
+        kubectl delete -f deployment/
     Removes all resources
  
 
