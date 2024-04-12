@@ -35,6 +35,7 @@ Step by step instructions for how to delete this application.
     Step 1)
 
         kubectl delete -f deployment/
+        
     Removes all resources
  
 
