@@ -34,13 +34,10 @@ Step 4)        Create Supeuser:
 Step by step instructions for how to delete this application.   
     Step 1)
 
-        kubectl delete -f deployment/
-        
-    Removes all resources
- 
+        kubectl delete -f deployment/ 
 
-    This repository has the starter code for CIS-92.     
-           
 
+Removes all resources
+This repository has the starter code for CIS-92.
 By Anthony L Frey
 
