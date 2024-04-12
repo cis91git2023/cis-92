@@ -36,8 +36,8 @@ Step by step instructions for how to delete this application.
 
         kubectl delete -f deployment/ 
 
-
 Removes all resources
+
 This repository has the starter code for CIS-92.
 By Anthony L Frey
 
