@@ -1,3 +1,5 @@
+arcitecture: standalone
+
 # Configuration for Postgres
 auth:
   username: mysiteuser
