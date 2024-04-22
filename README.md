@@ -14,7 +14,6 @@ ENV_VARS:        config.yaml
 | POSTGRES_PASSWORD | this-is-a-bad-password | Password |
 | POSTGRES_HOSTNAME | localhost | connect to remote cloud db |
 | DEBUG | 1 | ? |
-| SECRET_KEY | Top Secret | Classified
 
 Classified Top Secret:       secret.yaml 
 | Username | Password | Database |
