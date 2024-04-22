@@ -16,7 +16,7 @@ ENV_VARS:        config.yaml
 | DEBUG | 1 | ? |
 | SECRET_KEY | Top Secret | Classified
 
-Top Secrets:       secret.yaml 
+Classified Top Secret:       secret.yaml 
 | Username | Password | Database |
 | --- | --- | ---|
 | mysiteuser | this-is-a-bad-password | mysite |
