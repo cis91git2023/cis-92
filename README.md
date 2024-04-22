@@ -28,7 +28,8 @@ Resource Requests:
 | Storage | 100M | 100M |
 
 
-Step by step instructions for how to deploy your application on a Kubernetes cluster.           
+Step by step instructions for how to deploy your application on a Kubernetes cluster.  
+
 Step 1)        Apply full deployment:
 
         kubectl apply -f deployment/
