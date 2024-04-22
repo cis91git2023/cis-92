@@ -2,7 +2,7 @@
 
 This is my project.
 
-ENV_VARS:
+ENV_VARS:        config.yaml
 
 | Name |  Default |  Description |
 | --- | --- | --- |
@@ -16,12 +16,12 @@ ENV_VARS:
 | DEBUG | 1 | ? |
 | SECRET_KEY | Top Secret | Classified
 
-Top Secrets:
+Top Secrets:       secret.yaml 
 | Username | Password | Database |
 | --- | --- | ---|
 | mysiteuser | this-is-a-bad-password | mysite |
 
-Resouce Requests:
+Resource Requests:
 | Resource | Request | Limit |
 | --- | --- | --- |
 | Memory | 512M | 512M |
