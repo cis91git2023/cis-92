@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: mysite-deployment
   labels:
-    app: nginx
+    app: function: app
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx
+      function: app
   template:
     metadata:
       labels:
-        app: nginx
+        function: app
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: nginx:stable-bullseye
         ports:
         - containerPort: 80
