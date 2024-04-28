@@ -29,14 +29,13 @@ spec:
               value: localhost
         resources:
           requests:
-            cpu: 250m 
+            cpu: 500m 
             memory: 512Mi
             ephemeral-storage: 10Mi
           limits:
-            cpu: 250m 
+            cpu: 500m 
             memory: 512Mi
-            ephemeral-storage: 10Mi
-        
+            ephemeral-storage: 10Mi        
         envFrom:
         - configMapRef:
             name: mysite-config
